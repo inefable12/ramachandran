@@ -3,15 +3,13 @@ from RamachanDraw import fetch, phi_psi, plot
 import matplotlib.pyplot as plt
 
 
-st.text('Esta aplicación web fue desarrollada por Mohit Poudel y se encuentra disponible en su versión original en: https://mohit254-rc-plot-streamlit-app-gsua5l.streamlit.app/ y está diseñada para ayudar a investigadores y científicos a obtener el diagrama de Ramachandran a través de la identificación de la base de datos de proteínas (ID de PDB).')
-
-st.title("Ramachandran Plot Generator")
-
 # Set Streamlit configurations
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="Generador del Diagrama de Ramachandran", page_icon=":mortar_board:") 
 #:heart:")
+st.text('Esta aplicación web fue desarrollada por Mohit Poudel y se encuentra disponible en su versión original en: https://mohit254-rc-plot-streamlit-app-gsua5l.streamlit.app/ y está diseñada para ayudar a investigadores y científicos a obtener el diagrama de Ramachandran a través de la identificación de la base de datos de proteínas (ID de PDB).')
 
+st.title("Ramachandran Plot Generator")
 
 # Option to choose between PDB or mmCIF file formats
 file_format = st.selectbox("Escoge el formato de tu archivo:", options=["PDB", "mmCIF"])
