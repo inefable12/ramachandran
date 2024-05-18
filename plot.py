@@ -9,31 +9,6 @@ st.set_page_config(page_title="Generador del Diagrama de Ramachandran", page_ico
 #:heart:")
 
 
-# Show the introduction text
-st.text(
-    'Esta aplicación web fue desarrollada por Mohit Poudel y se encuentra disponible en su versión original en: https://mohit254-rc-plot-streamlit-app-gsua5l.streamlit.app/ y está diseñada para ayudar a investigadores y científicos a obtener el diagrama de Ramachandran a través de la identificación de la base de datos de proteínas (ID de PDB).')
-
-st.title("Ramachandran Plot Generator")
-
-st.markdown('''
-Un diagrama de Ramachandran es una representación gráfica de las conformaciones de péptidos y proteínas en función de los valores de sus ángulos phi y psi. 
-
-Phi y psi son ángulos diédricos que describen la conformación de la cadena principal de una proteína. 
-
-El ángulo phi se define como el ángulo entre el plano formado por los átomos N-C alfa-C y el plano formado por los átomos C alfa-N-C. 
-
-El ángulo psi se define como el ángulo entre el plano formado por los átomos C alfa-N y el plano formado por los átomos N-C alfa-C. 
-
-Los gráficos de Ramachandran se utilizan a menudo para analizar la flexibilidad conformacional de las proteínas y para identificar regiones de una proteína que son propensas a perturbaciones estructurales. 
-
-También se utilizan para identificar anomalías estructurales y predecir las conformaciones de bucles de proteínas. 
-
-Los gráficos de Ramachandran generalmente se generan trazando los ángulos phi en el eje x y los ángulos psi en el eje y. 
-
-La gráfica resultante se divide en regiones, correspondiendo cada región a un tipo diferente de conformación de proteína.
-
-''')
-
 # Option to choose between PDB or mmCIF file formats
 file_format = st.selectbox("Escoge el formato de tu archivo:", options=["PDB", "mmCIF"])
 
@@ -62,6 +37,33 @@ if 'pdb_file' in locals():
     # Display the plot in the Streamlit app using st.pyplot
     st.markdown("### Diagrama de Ramachandran de la Proteína ingresada: ")
     st.pyplot()
+
+
+
+# Show the introduction text
+st.text(
+    'Esta aplicación web fue desarrollada por Mohit Poudel y se encuentra disponible en su versión original en: https://mohit254-rc-plot-streamlit-app-gsua5l.streamlit.app/ y está diseñada para ayudar a investigadores y científicos a obtener el diagrama de Ramachandran a través de la identificación de la base de datos de proteínas (ID de PDB).')
+
+st.title("Ramachandran Plot Generator")
+
+st.markdown('''
+Un diagrama de Ramachandran es una representación gráfica de las conformaciones de péptidos y proteínas en función de los valores de sus ángulos phi y psi. 
+
+Phi y psi son ángulos diédricos que describen la conformación de la cadena principal de una proteína. 
+
+El ángulo phi se define como el ángulo entre el plano formado por los átomos N-C alfa-C y el plano formado por los átomos C alfa-N-C. 
+
+El ángulo psi se define como el ángulo entre el plano formado por los átomos C alfa-N y el plano formado por los átomos N-C alfa-C. 
+
+Los gráficos de Ramachandran se utilizan a menudo para analizar la flexibilidad conformacional de las proteínas y para identificar regiones de una proteína que son propensas a perturbaciones estructurales. 
+
+También se utilizan para identificar anomalías estructurales y predecir las conformaciones de bucles de proteínas. 
+
+Los gráficos de Ramachandran generalmente se generan trazando los ángulos phi en el eje x y los ángulos psi en el eje y. 
+
+La gráfica resultante se divide en regiones, correspondiendo cada región a un tipo diferente de conformación de proteína.
+
+''')
 
 
 # --- HERO SECTION ---
