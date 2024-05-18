@@ -64,7 +64,7 @@ if 'pdb_file' in locals():
 
 
 # --- HERO SECTION ---
-st.markdown("## Developed By: ")
+st.markdown("## Contacto: ")
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.image(
@@ -80,7 +80,7 @@ with col2:
 
 # st.markdown("# Mohit Poudel")
 # st.markdown("### Research Intern at the Centre for Biotechnology, Agriculture and Forestry University,Nepal")
-st.markdown("#### Contacto: inefable12@gmail.com ")
+st.markdown("#### Email: inefable12@gmail.com ")
 st.markdown(
-    "##### [Investigaciones](https://dina.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do;jsessionid=826642570f15c1f72462218ecdde?id_investigador=80706)")
+    "##### [Investigaciones](https://scholar.google.es/citations?hl=es&user=hhUz0WAAAAAJ&view_op=list_works&sortby=pubdate)")
     #https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel)")
