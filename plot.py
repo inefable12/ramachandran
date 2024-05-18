@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 
 # Set Streamlit configurations
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.set_page_config(page_title="Generador del Diagrama de Ramachandran", page_icon=":mortar_board:
-") 
+st.set_page_config(page_title="Generador del Diagrama de Ramachandran", page_icon=":mortar_board:") 
 #:heart:")
 
 
