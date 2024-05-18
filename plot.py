@@ -70,12 +70,12 @@ with col1:
     st.image(
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrz4fkFh7FwQ498chHBA-W5TWC4Uk0fAt7oEAQ8zLCUA&s",
         #https://media.licdn.com/dms/image/C4E03AQGwZ6UAzv6-fw/profile-displayphoto-shrink_200_200/0/1619592173009?e=1682553600&v=beta&t=1dTWbkIKGSnmD8TUUPhCkT9p9Dtu3NXmJLNlaCUyX0A",
-        width=230)
+        width=200)
 
 with col2:
     st.title("Jesus Alvarado")
-    st.write("Docente universitario, investigador y divulgador de talleres STEAM") #Bioinformatics & population genetics enthusiast, self-taught python programmer")
-    st.write("Simulaciones Computacionales y Machine Learning")
+    st.write("Docente universitario, investigador y divulgador científico")
+    st.write("Inteligencia artificial y Simulaciones Computacionales")
     st.write("Lima, Perú")
 
 # st.markdown("# Mohit Poudel")
