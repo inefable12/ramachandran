@@ -43,24 +43,17 @@ if 'pdb_file' in locals():
 
 
 #
+st.title("Qué es el Diagrama de Ramachandran?")
 
 st.markdown('''
-Un diagrama de Ramachandran es una representación gráfica de las conformaciones de péptidos y proteínas en función de los valores de sus ángulos phi y psi. 
 
-Phi y psi son ángulos diédricos que describen la conformación de la cadena principal de una proteína. 
+Un diagrama de Ramachandran es una representación gráfica de las conformaciones de péptidos y proteínas en función de los valores de sus ángulos phi y psi. Phi y psi son ángulos diédricos que describen la conformación de la cadena principal de una proteína. 
 
-El ángulo phi se define como el ángulo entre el plano formado por los átomos N-C alfa-C y el plano formado por los átomos C alfa-N-C. 
+El ángulo phi se define como el ángulo entre el plano formado por los átomos N-C alfa-C y el plano formado por los átomos C alfa-N-C. El ángulo psi se define como el ángulo entre el plano formado por los átomos C alfa-N y el plano formado por los átomos N-C alfa-C. 
 
-El ángulo psi se define como el ángulo entre el plano formado por los átomos C alfa-N y el plano formado por los átomos N-C alfa-C. 
+Los gráficos de Ramachandran se utilizan a menudo para analizar la flexibilidad conformacional de las proteínas y para identificar regiones de una proteína que son propensas a perturbaciones estructurales. También se utilizan para identificar anomalías estructurales y predecir las conformaciones de bucles de proteínas. 
 
-Los gráficos de Ramachandran se utilizan a menudo para analizar la flexibilidad conformacional de las proteínas y para identificar regiones de una proteína que son propensas a perturbaciones estructurales. 
-
-También se utilizan para identificar anomalías estructurales y predecir las conformaciones de bucles de proteínas. 
-
-Los gráficos de Ramachandran generalmente se generan trazando los ángulos phi en el eje x y los ángulos psi en el eje y. 
-
-La gráfica resultante se divide en regiones, correspondiendo cada región a un tipo diferente de conformación de proteína.
-
+Los gráficos de Ramachandran generalmente se generan trazando los ángulos phi en el eje x y los ángulos psi en el eje y. La gráfica resultante se divide en regiones, correspondiendo cada región a un tipo diferente de conformación de proteína.
 ''')
 
 
