@@ -5,6 +5,15 @@ from ramachandraw.parser import get_phi_psi as phi_psi
 from ramachandraw.utils import fetch_pdb as fetch
 from ramachandraw.utils import plot
 
+"""
+# PDB id
+pdb_id = "1mbn"
+# Draw the Ramachandran plot
+plot(fetch_pdb(pdb_id))
+# Generate a dictionary to store the (phi, psi) torsion angles
+torsion_angles = get_phi_psi(fetch_pdb(pdb_id))
+"""
+
 # Set Streamlit configurations
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(page_title="Generador del Diagrama de Ramachandran", page_icon=":mortar_board:") 
