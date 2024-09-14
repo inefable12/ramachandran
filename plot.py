@@ -1,7 +1,8 @@
 import streamlit as st
-from RamachanDraw import fetch, phi_psi, plot
+#from RamachanDraw import fetch, phi_psi, plot
 import matplotlib.pyplot as plt
-
+from ramachandraw.parser import get_phi_psi
+from ramachandraw.utils import fetch_pdb, plot
 
 # Set Streamlit configurations
 st.set_option('deprecation.showPyplotGlobalUse', False)
