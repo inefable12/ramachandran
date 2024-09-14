@@ -6,7 +6,7 @@ from ramachandraw.utils import fetch_pdb
 from ramachandraw.utils import plot
 
 st.title("Generador de Diagrama de Ramachandran")
-st.text("Autor: Jesus Alvarado")
+st.text("Autor: EHN")
 
 pdb_id = st.text_input("Escribe el código PDB de 4 dígitos, por ejemplo: ", "3PL1")
 pdb_file = fetch_pdb(pdb_id)
