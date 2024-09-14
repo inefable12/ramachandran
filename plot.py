@@ -14,7 +14,6 @@ pdb_file = fetch_pdb(pdb_id)
 #torsion_angles = get_phi_psi(fetch_pdb(pdb_id))
 
 plt.figure()
-    plot(pdb_file)
-
+plot(pdb_file)
 st.markdown("### Ramachandran Plot of given Protein: ")
-    st.pyplot()
+st.pyplot()
