@@ -6,7 +6,8 @@ from ramachandraw.utils import plot
 from io import BytesIO 
 
 st.title("Generador de Diagrama de Ramachandran")
-st.text("Autor: Jesús Alvarado")
+st.text("Autor: Jesús Alvarado-Huayhuaz")
+st.image("ramachandran_logo.png", caption="Jesus Alvarado-Huayhuaz")
 
 pdb_id = st.text_input("Escribe el código PDB de 4 dígitos, por ejemplo: ", "3PL1")
 pdb_file = fetch_pdb(pdb_id)
