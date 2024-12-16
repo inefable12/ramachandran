@@ -15,5 +15,5 @@ plt.figure()
 plot(pdb_file)#, ax=ax) 
 
 st.markdown("**Resultado :gift:**")
-st.pyplot()
-st.balloons(plt.gcf())
+st.pyplot(plt.gcf())
+st.balloons()
